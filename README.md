@@ -1,6 +1,6 @@
 ### Wayback Machine MCP Server (Python)
 
-[![CI](https://github.com/sisilet/wayback_mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/sisilet/wayback_mcp/actions/workflows/ci.yml)
+[![CI](https://github.com/sisilet/wayback-mcp/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sisilet/wayback-mcp/actions/workflows/ci.yml)
 [![PyPI version](https://img.shields.io/pypi/v/wayback-mcp.svg)](https://pypi.org/project/wayback-mcp/)
 [![Python versions](https://img.shields.io/pypi/pyversions/wayback-mcp.svg)](https://pypi.org/project/wayback-mcp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
