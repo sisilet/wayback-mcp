@@ -31,6 +31,21 @@ pip install wayback-mcp
 wayback-mcp
 ```
 
+#### Run with uvx (no install)
+```bash
+uvx wayback-mcp
+```
+
+- Pin Python version:
+```bash
+uvx --python 3.12 wayback-mcp
+```
+
+- Pin package version:
+```bash
+uvx --from wayback-mcp==0.1.1 wayback-mcp
+```
+
 
 #### Configure in MCP client
 Claude Desktop settings (example):
