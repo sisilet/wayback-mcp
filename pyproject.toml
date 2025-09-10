@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wayback-mcp"
+version = "0.1.0"
+description = "Wayback Machine MCP server (Python)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+	"mcp>=1.0.0",
+	"httpx>=0.27.0",
+	"pydantic>=2.7.0",
+]
+
+authors = [
+    { name = "sisilet" }
+]
+license = { file = "LICENSE" }
+keywords = ["mcp", "model-context-protocol", "wayback", "archive.org", "internet-archive"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries",
+    "Environment :: Console",
+]
+
+[project.urls]
+Homepage = "https://github.com/sisilet/wayback_mcp"
+Repository = "https://github.com/sisilet/wayback_mcp"
+Issues = "https://github.com/sisilet/wayback_mcp/issues"
+
+[project.scripts]
+wayback-mcp = "wayback_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["wayback_mcp*"]
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+
