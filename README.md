@@ -1,5 +1,10 @@
 ### Wayback Machine MCP Server (Python)
 
+[![CI](https://github.com/sisilet/wayback_mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/sisilet/wayback_mcp/actions/workflows/ci.yml)
+[![PyPI version](https://img.shields.io/pypi/v/wayback-mcp.svg)](https://pypi.org/project/wayback-mcp/)
+[![Python versions](https://img.shields.io/pypi/pyversions/wayback-mcp.svg)](https://pypi.org/project/wayback-mcp/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A Model Context Protocol (MCP) server that provides access to the Internet Archive Wayback Machine: list snapshots and fetch archived pages. Inspired by the TypeScript server described in the LobeHub listing.
 
 - Reference: Wayback MCP (listing) — [link](https://lobehub.com/mcp/cyreslab-ai-wayback-mcp-server)
