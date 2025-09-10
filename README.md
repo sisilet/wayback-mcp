@@ -53,8 +53,23 @@ Claude Desktop settings (example):
 {
   "mcpServers": {
     "wayback-machine": {
-      "command": "/usr/bin/python3",
-      "args": ["-m", "wayback_mcp.server"],
+      "command": "wayback-mcp",
+      "args": [],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
+```
+
+Alternatively, using uvx (no install):
+```json
+{
+  "mcpServers": {
+    "wayback-machine": {
+      "command": "uvx",
+      "args": ["wayback-mcp"],
       "env": {},
       "disabled": false,
       "autoApprove": []
